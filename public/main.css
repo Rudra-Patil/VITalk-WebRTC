@@ -52,3 +52,24 @@ video {
     background-color: #4CAF50;
     color: white;
   }
+#hello {
+    color: white;
+
+  }
+  button {
+    height: 2em;
+    width: 10%;
+    padding: 1em auto;
+    margin: 1em auto;
+    background-color: rgb(240, 29, 72);
+    border: none;
+    border-radius: 3px;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    transition: all 0.2s cubic-bezier(.4,0,.2,1);
+    text-align: center;
+    position: absolute;
+    left:45%;
+   
+  }
+  
