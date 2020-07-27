@@ -5,9 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link href="main.css" rel="stylesheet">
+    <script language="javascript" type="text/javascript">
+        function windowClose() {
+        window.open('','_parent','');
+        window.close();
+        }
+    </script>
 </head>
 
 <body>
+    <div class="topnav">
+        <a class="active" href="#home">Namaste India!</a>
+        <a href="#news">Home</a>
+        <a href="#contact">Our Team</a>
+        <a href="#about">About Us</a>
+      </div>
     <div class="container-fluid">
         <div class="row h-10 w-100">
             <div class="col">
@@ -46,6 +58,7 @@
 
     <script src="/socket.io/socket.io.js"></script>
     <script src="bundle.js"></script>
+    <input type="button" value="Close this window" onclick="windowClose();">
 </body>
 
 </html>
